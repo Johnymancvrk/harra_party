@@ -1,4 +1,4 @@
-const totalQuestions = 15;
+const totalQuestions = 17;
 let questionsState = JSON.parse(localStorage.getItem("questionsState")) || Array(totalQuestions).fill(false);
 
 function saveQuestionsState() {
@@ -21,3 +21,4 @@ function renderQuestions() {
 }
 
 renderQuestions();
+
